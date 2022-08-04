@@ -1,0 +1,22 @@
+<h1>{{nombre}}</h1>
+
+<dl>
+    <td>nombre:</td>
+    <dd>{{nombre}}</dd>
+
+    <td>nombre:</td>
+    <dd>{{edad}}</dd>
+
+    <td>Función:</td>
+    <dd>{{obtenerNombre().toLocaleLowerCase()}}</dd>
+
+
+    <td>Capitalizado:</td>
+    <dd>{{nombreCapitalizado}}</dd>
+</dl>
+
+<button (click)="cambiarNombre()">Cambir hero</button>
+<button (click)="cambiarEdad()">
+    cambiar edad
+</button>
+
